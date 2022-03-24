@@ -69,7 +69,7 @@
 }
 
 /*---- common ---*/
-.ex-1-square, .ex-2-square, .ex-3-square{
+.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square{
     transition: 2s;
 }
 
@@ -89,7 +89,9 @@
 }
 
 /*---- EX 4 ---*/
-
+.ex-4-square:hover{
+    opacity: 0;
+}
 
 /*---- EX 5 ---*/
 
