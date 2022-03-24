@@ -108,8 +108,12 @@
     
 }
 
-
 /*---- EX 7 ---*/
+.ex-7-img:hover{
+    filter:brightness(50%);
+    filter: saturate(50px);
+    
+}
 
 
 /*---- EX 8 ---*/
