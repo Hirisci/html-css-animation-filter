@@ -169,6 +169,33 @@
 
 /*---- EX 12 ---*/
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: muovi-top 1s linear infinite;
+}
+
+
+@keyframes muovi-top {
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: calc(10% + 100px);
+    } 
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: muovi-bot 1s linear infinite;
+}
+
+@keyframes muovi-bot {
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: calc(20% + 100px);
+    } 
+}
+
 
 /*---- EX 13 ---*/
 
