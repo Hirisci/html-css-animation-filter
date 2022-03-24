@@ -134,8 +134,25 @@
 
 /*---- EX 10 ---*/
 
-
 /*---- EX 11 ---*/
+
+.ex-11-icon{
+    animation: ruota 4s linear infinite;
+}
+
+@keyframes ruota {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    0% {
+        transform: rotate(0deg);
+    }
+
+}
+
 
 
 /*---- EX 12 ---*/
