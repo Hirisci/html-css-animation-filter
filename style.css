@@ -69,7 +69,7 @@
 }
 
 /*---- common ---*/
-.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square, .ex-5-square, .ex-7-img, .ex-8-img{
+.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square, .ex-5-square, .ex-7-img, .ex-8-img,.ex-9-img{
     transition: 2s;
 }
 
@@ -125,7 +125,12 @@
 
 
 /*---- EX 9 ---*/
-
+.ex-9-img:hover{
+    filter:brightness(50%);
+    filter: saturate(50px);
+    border-radius: 25px;
+    transform: scale(1.5);   
+}
 
 /*---- EX 10 ---*/
 
