@@ -68,11 +68,51 @@
     height: 20px;
 }
 
-/*---- EX 1 ---*/
-.ex-1-square{
+/*---- common ---*/
+.ex-1-square, .ex-2-square{
     transition: 2s;
 }
+
+/*---- EX 1 ---*/
 .ex-1-square:hover{
     background-color: red;
 }
+
+/*---- EX 2 ---*/
+.ex-2-square:active{
+    width: 500px;
+}
+
+/*---- EX 3 ---*/
+
+
+/*---- EX 4 ---*/
+
+
+/*---- EX 5 ---*/
+
+
+/*---- EX 6 ---*/
+
+
+/*---- EX 7 ---*/
+
+
+/*---- EX 8 ---*/
+
+
+/*---- EX 9 ---*/
+
+
+/*---- EX 10 ---*/
+
+
+/*---- EX 11 ---*/
+
+
+/*---- EX 12 ---*/
+
+
+/*---- EX 13 ---*/
+
 
